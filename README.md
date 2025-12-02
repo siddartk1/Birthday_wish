@@ -56,7 +56,7 @@ You will need either Python or Node.js installed on your machine to run a local 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/sapthesh/Birthday.git](https://github.com/sapthesh/Birthday.git)
+    git clone [https://github.com/sapthesh/Birthday.git]
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -66,9 +66,9 @@ You will need either Python or Node.js installed on your machine to run a local 
 
     * **Using Python:**
         ```bash
-        python -m SimpleHTTPServer 8081
+        python -m http.server 8080
         ```
-        Then, open your browser and navigate to `http://localhost:8081`.
+        Then, open your browser and navigate to `http://localhost:8080`.
 
     * **Using Node.js:**
         First, install the dependencies:
